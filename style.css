@@ -151,6 +151,4 @@ header {
     max-width: 670px;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-  }
-}
+  }}
