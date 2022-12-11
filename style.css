@@ -117,15 +117,29 @@ header {
   color: #E1E1E6;
 }
 
+.card ul h1 {
+  text-align: center;
+  color: #E1E1E6;
+}
+
+.card ul p {
+  text-align: center;
+  color: #E1E1E6;
+}
+
 .card h2:hover,
 .card ul li strong:hover,
-.card ul li img:hover {
+.card ul li img:hover,
+.card ul h1:hover,
+.card ul p:hover {
   transform: scale(1.1);
 }
 
 .card h2,
 .card ul li strong,
-.card ul li img {
+.card ul li img,
+.card ul h1,
+.card ul p {
   transition: transform 0.3s;
 }
 
