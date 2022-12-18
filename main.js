@@ -180,5 +180,5 @@ document.querySelector("#cards").innerHTML =
   creatCard(
     "18/12",
     "domingo",
-    creatGames("argentina", "12:00", "france", "TBD", "final da Copa do Mundo no Qatar")
+    creatGames("argentina", "12:00", "france", "3(4) x 3(2)", "final da Copa do Mundo no Qatar - Argentina campeã e grande jogo da França")
   )
