@@ -165,10 +165,20 @@ document.querySelector("#cards").innerHTML =
   creatCard(
     "13/12", 
     "terça", 
-    creatGames("argentina", "16:00", "croatia", "TBD", "semi-final")
+    creatGames("argentina", "16:00", "croatia", "3 x 0", "semi-final")
   ) +
   creatCard(
     "14/12", 
     "quarta", 
-    creatGames("france", "16:00", "marrocos", "TBD", "semi-final")
+    creatGames("france", "16:00", "marrocos", "2 x 0", "semi-final")
+  ) +
+  creatCard(
+    "17/12",
+    "sábado",
+    creatGames("croatia", "12:00", "marrocos", "2 x 1", "decisão para o terceiro colocado")
+  ) +
+  creatCard(
+    "18/12",
+    "domingo",
+    creatGames("argentina", "12:00", "france", "TBD", "final da Copa do Mundo no Qatar")
   )
